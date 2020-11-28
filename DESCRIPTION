@@ -1,0 +1,40 @@
+Package: Affymetrix_DE
+Title: An Affymetrix microarray differential expression workflow
+Version:  0.99.0
+Date: 2020-12-08
+Authors@R: c(person(role=c("aut", "cre"), "Gerald", "McCollam", email = "gerald.mccollam@gmail.com"))
+Description: An Affymetrix microarray differential expression workflow using Bioconductor.
+Depends: R (>= 3.5.0),
+    Biobase,
+    oligoClasses,
+    ArrayExpress,
+    pd.hugene.1.0.st.v1,
+    hugene10sttranscriptcluster.db,
+    oligo,
+    arrayQualityMetrics,
+    limma,
+    topGO,
+    ReactomePA,
+    clusterProfiler,
+    gplots,
+    ggplot2,
+    geneplotter,
+    pheatmap,
+    RColorBrewer,
+    dplyr,
+    tidyr,
+    stringr,
+    matrixStats,
+    genefilter,
+    openxlsx,
+    Rgraphviz 
+Suggests: 
+    BiocStyle,
+    knitr,
+    devtools,
+    rmarkdown
+License: MIT
+Encoding: UTF-8
+VignetteBuilder: knitr
+NeedsCompilation: no
+Workflow: True
